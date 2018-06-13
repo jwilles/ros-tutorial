@@ -1,0 +1,12 @@
+background_b: 255
+background_g: 86
+background_r: 150
+rosdistro: 'melodic
+
+  '
+roslaunch:
+  uris: {host_jwilles_pc__35547: 'http://jwilles-pc:35547/'}
+rosversion: '1.14.1
+
+  '
+run_id: 18f6ec44-6d0e-11e8-9746-2cfda1df9997
