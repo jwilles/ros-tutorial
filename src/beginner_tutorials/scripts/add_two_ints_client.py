@@ -8,7 +8,7 @@ def add_two_ints_client(x, y):
     rospy.wait_for_service('add_two_ints')
     try:
         add_two_ints = rospy.ServiceProxy('add_two_ints', AddTwoInts)
-        resp1 = add_two_ints(X, y)
+        resp1 = add_two_ints(x, y)
         return resp1.sum
     except rospy.ServiceException, e:
         print "Service call failed: %s"%e
